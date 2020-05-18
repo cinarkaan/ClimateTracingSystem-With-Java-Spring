@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #191919;
+    background-size: cover;
+    font-family: "Microsoft Sans Serif";
+}
+
+.Container {
+    margin: 0px;
+    box-sizing: border-box;
+    display: grid;
+    margin-top: 60px;
+    place-items: center;
+    color: antiquewhite;
+}

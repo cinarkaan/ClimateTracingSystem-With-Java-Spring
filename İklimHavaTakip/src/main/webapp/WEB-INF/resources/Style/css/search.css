@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/forecast.jpg");
+    background-size: cover;
+    font-family: "Microsoft Sans Serif";
+}
+
+h1 {
+    margin: 0 0 10px;
+    padding: 0px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.LongSearch {
+    margin: 0px;
+    box-sizing: border-box;
+    display: grid;
+    margin-top: 60px;
+    place-items: center;
+}
+
+.Search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+}
+
+.province {
+    background: white;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+.country{
+    background: white;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+.submit{
+    position: relative;
+    border-radius: 0 25px 0 25px;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+}
+

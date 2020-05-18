@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: slategrey;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -150px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.Logo img{
+    margin-top: -25px;
+    color: white;
+    width: 300px;
+    height: 200px;
+}
+
+.main{
+    max-height: 1200px;
+    margin: auto;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition : 0.6s ease;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color : #000;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.enterProfileInform {
+    width: 320px;
+    padding: 40px;
+    position: absolute;
+    border-radius: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.enterProfileInform input[type="text"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: -20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+
+.enterProfileInform input[type="text"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.enterProfileInform input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.enterProfileInform input[type = "submit"]:hover {
+    background: #2ecc71;
+}
+
+
+.profileInform {
+    left:140px;
+    right:auto;
+    color: white;
+    font-family: "Microsoft Sans Serif";
+    position: absolute;
+}

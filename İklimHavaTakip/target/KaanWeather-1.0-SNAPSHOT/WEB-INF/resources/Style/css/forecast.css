@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+	url("../img/Sunset.jpg");
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+.Long {
+	top: 5px;
+	left:250px;
+	right:auto;
+	bottom: 5px;
+	width: 130px;
+	height: auto;
+	padding: 55px;
+	background: rgba(190, 200, 200, 0.5);
+	box-shadow: 2px 2px 6px #000;
+	border-radius: 15px;
+	position: absolute;
+}
+
+.Current {
+	top: 5px;
+	left:auto;
+	right:250px;
+	bottom: 5px;
+	box-shadow: 2px 2px 6px #000;
+	border-radius: 15px;
+	width: 130px;
+	height: auto;
+	padding: 55px;
+	background: rgba(190, 200, 200, 0.5);
+	position: absolute;
+}
+.Today {
+	top: 5px;
+	left: 560px;
+	right: auto;
+	bottom: 5px;
+	box-shadow: 2px 2px 6px #000;
+	border-radius: 15px;
+	width: 130px;
+	height: auto;
+	padding: 55px;
+	background: rgba(190, 200, 200, 0.5);
+	position: absolute;
+}
+

@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: slategrey;
+}
+
+.main{
+    max-height: 1200px;
+    margin: auto;
+}
+
+.login-box {
+    width: 320px;
+    padding: 40px;
+    position: absolute;
+    border-radius: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.Sing-Up-Box {
+    width: 320px;
+    padding: 40px;
+    position: absolute;
+    border-radius: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.login-box input[type="text"], .login-box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: -20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.Sing-Up-Box input[type="text"], .Sing-Up-Box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: -20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.login-box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.Sing-Up-Box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.login-box input[type="text"]:focus, .login-box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+
+.Sing-Up-Box input[type="text"]:focus, .Sing-Up-Box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.login-box input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.Sing-Up-Box input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.login-box input[type = "submit"]:hover {
+    background: #2ecc71;
+}
+
+.Sing-Up-Box input[type = "submit"]:hover {
+    background: #2ecc71;
+}
