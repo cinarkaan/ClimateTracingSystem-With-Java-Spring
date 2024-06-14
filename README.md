@@ -1,5 +1,5 @@
 # Climate Tracing System
-Weather tracking system with java spring mvc framework and desingned software desing patterns
+<p>Weather tracking system with java spring mvc framework and desingned software desing patterns. The software also use postgresql database.</p>
 
 
 <img src = "Sample1.PNG">
